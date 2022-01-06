@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="wmTestSuite">
+    <webMethodsTestCase name="Fibonacci_9_34">
+        <service folder="Fibonachi.services" name="getFibunachiNumber">
+            <input>
+                <file filename="resources/data/fib_input_9.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/fib_output_9.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
